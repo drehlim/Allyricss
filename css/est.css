@@ -1,0 +1,187 @@
+*{
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    width: 80%;
+    position: relative;
+    padding-top: 20px;
+}
+.lk{
+    position: absolute;
+    width: 40%;
+    text-align: justify;
+    left: 250px;
+    text-align: right;
+    color: #888888;
+   
+}
+
+.audio{
+    padding-top: 6px;
+}
+#letra_k{
+
+   padding-left: 800px;
+}
+.traducao{
+    color: #000000;
+    position: absolute;
+    width: 40%;
+    text-align: justify;
+    left: 900px;
+    letter-spacing: 2px;
+    font-size: 19px;
+    line-height: 1.6;
+}
+.video{
+   border-left: 400px;
+}
+@media screen and (max-width: 480px){
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
+        width: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+        text-align: center;
+    }
+
+    .lista-beneficios, .imagem-beneficios{
+        width: 100%;
+    }
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px ;
+    margin: 0 auto;
+    padding:0 2%;
+    }
+    .menu{
+        padding-right: 90px;
+         padding-top:10px;
+         width:50%;
+         text-align: right;
+     }
+     
+     .menu a{
+         color: black;
+         text-decoration: none;
+         font-weight: bold;
+         margin-right:15px;
+     }
+     .gêneros{
+        font-family: arial, helvetica, sans-serif;
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        .auau{
+            margin-top: 15px;
+        }
+        .lt{
+            color: #daa520;
+            padding: 100px;
+            left: 450px;
+            text-align: center;
+        }
+        .zc{
+            position: absolute;
+            width: 40%;
+            text-align: justify;
+            left: 450px;
+            text-align: center;
+            color: #888888;
+            padding-left: 20px;
+        }
+        .sl{
+            color: #daa520;
+            padding: 100px;
+            left: 450px;
+            text-align: center;
+        }
+        .nirvana{
+            position: absolute;
+            width: 40%;
+            text-align: justify;
+            left: 450px;
+            text-align: center;
+            color: #888888;
+            padding-left: 20px;
+        }
+        .ap{
+            color: #daa520;
+            padding: 100px;
+            left: 450px;
+            text-align: center;
+        }
+        .jd{
+            position: absolute;
+            width: 40%;
+            text-align: justify;
+            left: 450px;
+            text-align: center;
+            color: #888888;
+            padding-left: 20px;
+        }
+        .menuw{
+            list-style:none;
+            float:left;
+            padding-right: 0px;
+            }
+            .menuw li{
+                position:relative;
+                float:left;
+                }
+                .menuw li a{color:#000000; text-decoration:none; padding:5px 10px; display:block;}
+            
+            .menuw li a:hover{
+            background:#daa520;
+            color:#fff;
+            -moz-box-shadow:0 3px 10px 0 #daa520;
+            -webkit-box-shadow:0 3px 10px 0 #daa520;
+            text-shadow:0px 0px 5px #daa520;
+            }
+            .menuw li  ul{
+                position:absolute;
+                top:25px;
+                left:0;
+                background-color:#daa520;
+                display:none;
+                }
+                .menuw li:hover ul, .menuw li.over ul{display:block;}
+                .menuw li ul li{
+                    border:1px solid #ffffff;
+                    display:block;
+                    width:150px;
+                    }
+                    .menuw{
+                        padding-right: 10%;
+                    }
+                    #letraing{
+                        display: flex;
+                    }#letrapt{
+                        display: flex;
+                    }
+                    #traducaokp{
+                        color: #daa520;
+                    }
+
+                    #letra_k{
+                        color: #daa520;
+                    }
+
+                    
+
+                    .videokpop{
+                       padding-left: -50%;
+                    }
